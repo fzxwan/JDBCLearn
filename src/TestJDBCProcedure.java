@@ -3,7 +3,10 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class TestDML2 {
+/**
+ * 学习调用存储过程；
+ */
+public class TestJDBCProcedure {
     public static void main(String[] args) {
         try {
             Class.forName("oracle.jdbc.OracleDriver");
