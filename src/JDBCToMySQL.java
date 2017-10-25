@@ -44,6 +44,7 @@ public class JDBCToMySQL {
         resultSet = statement.executeQuery(sql);
         while (resultSet.next()) {
             System.out.println(strPre + resultSet.getString("cont"));
+
             tree(connection, resultSet.getInt("id"), level + 1);
         }
     }
