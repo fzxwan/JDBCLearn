@@ -6,3 +6,4 @@ JDBC学习
 #### 学习了JDBC批处理；
 #### 学习了JDBC事物处理；
 #### 了解了JDBC三个Statement；
+#### 学习MySQL的JDBC连接；
